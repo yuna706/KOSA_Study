@@ -1,0 +1,23 @@
+{
+  "name": "KOSA_Study",
+  "version": "1.0.0",
+  "description": "1) 개발 환경: 내 PC(개발PC)에서 코딩/테스트 등을 할 수 있는 환경\r   - Java SDK 설치\r   - node.js 설치\r     ==> 결과(1): java -version, javac -version 로 버전 확인 (1.8.3 기준), node --version로 버전 확인 (14.17 기준)\r            결과(2): echo %JAVA_HOME% (JDK 설치 경로), echo %NODE_HOME% (Node 설치 경로)\r   - VisualStudio Code <br>\r     ==> 결과: Visual Studio Code 실행",
+  "main": "simpleCalc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuna706/KOSA_Study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuna706/KOSA_Study/issues"
+  },
+  "homepage": "https://github.com/yuna706/KOSA_Study#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
